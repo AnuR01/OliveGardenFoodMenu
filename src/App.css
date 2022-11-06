@@ -1,14 +1,11 @@
 
 *{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans'
-  
-  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans' 
 }
 
 .about{
   background-image: url("./olivegarden.jpg");
   max-width: 1000px;
-  min-height: 100vh;
   margin: 20px auto;
   border-radius: 20px;
   padding: 30px;
@@ -58,11 +55,6 @@ h3{
   color:rgb(230, 236, 241)
 }
 
-a{
-  color:rgb(226, 11, 11)
-}
-
 .searchbox{
-  align-items: center;
   text-align: center;
 }

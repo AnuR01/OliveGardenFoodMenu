@@ -4,6 +4,7 @@ function SearchBox({
     handleSubmit, query, isLoading, setQuery
 })  {
     return (
+        <div className="searchbox">
         <form onSubmit={handleSubmit}>
             <input
                 value={query}
@@ -18,6 +19,7 @@ function SearchBox({
                 className="btn"
                 value="Search" />
         </form>
+        </div>
     )
 };
 
